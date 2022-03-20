@@ -2,11 +2,10 @@ class Point(object):
     def __init__(self, x: float, y: float) -> float:
         self.x = x
         self.y = y
-
     def Line(self, other):
         length = ((self.x - other.x) ** 2 + (self.y - other.y) ** 2) ** 0.5
         return length
-    #def Rect(self,):
+    
         
     
 p1_x = float(input("p1.x: "))
