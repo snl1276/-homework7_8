@@ -16,12 +16,6 @@ class Line:
         self.length = math.sqrt((Point.x-self.a) ** 2 + (Point.y - self.b) ** 2)
         return self.length
       
-       
-class Square (Line):
-   
-    def area(self, w, h):
-        return self.length.w * self.length.h    
-        
     
 p1 = Point(1, 4)
 p2 = Line(6, 4)
@@ -32,5 +26,3 @@ b = p4.length(p3)
 
 print(a)
 print(b)
-
-

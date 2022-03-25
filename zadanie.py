@@ -5,7 +5,6 @@ class Point(object):
     def Line(self, other):
         length = ((self.x - other.x) ** 2 + (self.y - other.y) ** 2) ** 0.5
         return length
-    
         
     
 p1_x = float(input("p1.x: "))
